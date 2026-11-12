@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SmartBite.DeliveryPartner.API/SmartBite.DeliveryPartner.API.csproj" />
+  <Project Path="SmartBite.DeliveryPartner.Application/SmartBite.DeliveryPartner.Application.csproj" />
+  <Project Path="SmartBite.DeliveryPartner.Domain/SmartBite.DeliveryPartner.Domain.csproj" />
+  <Project Path="SmartBite.DeliveryPartner.Infrastructure/SmartBite.DeliveryPartner.Infrastructure.csproj" />
+</Solution>

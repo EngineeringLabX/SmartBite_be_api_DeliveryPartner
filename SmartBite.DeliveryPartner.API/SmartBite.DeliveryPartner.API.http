@@ -1,0 +1,25 @@
+@SmartBite.DeliveryPartner.API_HostAddress = http://localhost:5300
+
+GET {{SmartBite.DeliveryPartner.API_HostAddress}}/api/DeliveryPartner/GetAllDeliveryPartners
+Accept: application/json
+
+###
+
+GET {{SmartBite.DeliveryPartner.API_HostAddress}}/api/DeliveryPartner/GetDeliveryPartner/1
+Accept: application/json
+
+###
+
+POST {{SmartBite.DeliveryPartner.API_HostAddress}}/api/DeliveryPartner/CreateDeliveryPartner
+Content-Type: application/json
+Accept: application/json
+
+{
+  "partnerName": "Sample Partner",
+  "phoneNumber": "0771234567",
+  "vehicleType": "Motorbike",
+  "vehicleNumber": "CAB-1234",
+  "addressId": 1
+}
+
+###
